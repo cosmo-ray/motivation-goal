@@ -1,0 +1,10 @@
+{
+    "size": [42, 40],
+    "parent": "lvl0",
+    "next": "lvl31",
+    "next1": "lvl30",
+    "objs": [
+	["door", "amap.next"],
+	["door", "amap.next1"]
+    ]
+}

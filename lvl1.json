@@ -1,0 +1,8 @@
+{
+    "size": [60, 6],
+    "parent": "lvl0",
+    "next": "lvl2",
+    "objs": [
+	["door", "amap.next"]
+    ]
+}
