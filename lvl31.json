@@ -1,9 +1,9 @@
 {
     "size": [60, 5],
     "parent": "lvl0",
-    "next": "lvl31",
-    "next1": "lvl130",
+    "hooks": [],
+    "next": "last",
     "objs": [
-	["door", "amap.win"]
+	["door", "amap.next"]
     ]
 }

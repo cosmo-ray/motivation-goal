@@ -1,6 +1,18 @@
 {
     "size": [42, 13],
     "#": "rgba: 127 127 127 255",
+    "hooks": [
+	{ "action": "motivation-goal.lvl0_start" },
+	{ "action": ["motivation-goal.talk", "I will explain you how to play in time"] ,
+	  "at": 1 },
+	{ "action": ["motivation-goal.talk", "for now you can move with arrow"] ,
+	  "at": 2 },
+	{ "action": ["motivation-goal.talk", "and wou can jump with space"],
+	  "at": 3 },
+	{ "action": ["motivation-goal.talk", "oh and wou can dash with 'c'"],
+	  "at": 30 }
+
+    ],
     "monsters": {
 	"v": {
 	    "life": 5,

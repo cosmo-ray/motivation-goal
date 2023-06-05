@@ -1,6 +1,14 @@
 {
     "size": [60, 6],
     "parent": "lvl0",
+    "hooks": [
+	{ "action": ["motivation-goal.talk", "nice, you beat the first level"] ,
+	  "at": 1 },
+	{ "action": ["motivation-goal.talk", "that nice that I didn't forget to tell you\nyou can puch with 'x'"] ,
+	  "at": 2 },
+	{ "action": ["motivation-goal.talk", "otherwise, last enemy could have been hard :p"] ,
+	  "at": 3 }
+    ],
     "next": "lvl2",
     "objs": [
 	["door", "amap.next"]
