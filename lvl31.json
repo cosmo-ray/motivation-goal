@@ -29,10 +29,19 @@
 	},
 	{ "action": [
 	    "motivation-goal.talk",
-	    "BTW my fav anime are Versaille no Bara and Gundam\nso not catgirl related at all"] ,
+	    "BTW my fav anime are Versaille no Bara\n and Ideon\nso not catgirl related at all"] ,
 	  "at": 31
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "But my favorit sport anime        \nI can't decide between\nAce we Nerae ! and Ashita no Joe\n\n\n(still not catgirl related though)"],
+	  "at": 40
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "Recently I've watch Initial D, because\n'DEJA VU'\nnow I spend too much time listening\nto Touhou eurobeat"] ,
+	  "at": 41
 	}
-
 
     ],
     "next": "last",
