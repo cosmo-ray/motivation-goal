@@ -1,7 +1,13 @@
 {
     "size": [20, 40],
     "parent": "lvl0",
-    "hooks": [],
+    "hooks": [
+	{ "action": [
+	    "motivation-goal.talk",
+	    "The story is about a guy participating\nto 2023 linux gamejam\nand trying to keep it's motivation\nyour life is your motivation\nand everything try to destroy it"] ,
+	  "at": 1
+	}
+    ],
     "next": "last",
     "objs": [
 	["door", "amap.next"]

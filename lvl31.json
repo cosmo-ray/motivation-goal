@@ -1,7 +1,40 @@
 {
     "size": [60, 5],
     "parent": "lvl0",
-    "hooks": [],
+    "hooks": [
+	{ "action": [
+	    "motivation-goal.talk",
+	    "So the monster, there's 3 monster"] ,
+	  "at": 1
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "one monster, represent a video\nI mean a streamer\nthe kind of stuff that destroy\nyour motivation !"] ,
+	  "at": 2
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "Second monster is a game Consol       \nthe kind of consolos you can play\ndada tear of the land\nor whaever the name is\nas long as your posayy on your sofa\nand have a glass of yuzu limonade with you.\n\n<3 <3"] ,
+	  "at": 3
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "last monster is a cute anime girl\nthe one that say UwU\n\n\n(UwU mean Nyaaa)"] ,
+	  "at": 4
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "I lie UwU doesn't mean Nyaaa at all"] ,
+	  "at": 30
+	},
+	{ "action": [
+	    "motivation-goal.talk",
+	    "BTW my fav anime are Versaille no Bara and Gundam\nso not catgirl related at all"] ,
+	  "at": 31
+	}
+
+
+    ],
     "next": "last",
     "objs": [
 	["door", "amap.next"]

@@ -19,7 +19,11 @@
       (begin
 	(display "hello text !!!!\n")
 	(yePrint txt)
-	(y_stop_head wid 0 0 (yeGetString txt))
+	(let (
+	      (pos (yeGet (yeGet wid "_pc") 0))
+	      )
+	    (y_stop_head wid (- (ywPosX pos) 32) (- (ywPosY pos) 100) (yeGetString txt))
+	  )
 	)
       )
     )
@@ -108,7 +112,7 @@
 	(yeCreateFunction "boss" mod "boss")
 	(yeCreateFunction "pillow" mod "pillow")
 	(yaeString "rgba: 255 255 255 255"
-		   (yaeString "last"
+		   (yaeString "lvl0"
 			      (yaeString "amap" (yeCreateArray mod "starting_widget") "<type>")
 			      "map")
 		   "background")

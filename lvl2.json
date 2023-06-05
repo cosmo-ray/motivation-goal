@@ -1,7 +1,16 @@
 {
     "size": [42, 40],
     "parent": "lvl0",
-    "hooks": [],
+    "hooks": [
+	{ "action": ["motivation-goal.talk", "BTW there is a story  \nthe story is about a GUY\nThe Guy you play...."] ,
+	  "at": 1 },
+	{ "action": ["motivation-goal.talk", "and so this guy...."] ,
+	  "at": 2 },
+	{ "action": ["motivation-goal.talk", "this guy...."] ,
+	  "at": 3 },
+	{ "action": ["motivation-goal.talk", "know what, i've forgot   \nI'll tell you in the next lvl"] ,
+	  "at": 4 }
+    ],
     "next": "lvl31",
     "next1": "lvl30",
     "objs": [
