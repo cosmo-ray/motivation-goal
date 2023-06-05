@@ -1,0 +1,27 @@
+{
+    "size": [26, 20],
+    "parent": "lvl0",
+    "hooks": [
+	{ "action": ["motivation-goal.talk", "If you're like, isn't the boss life bar moving\nin a way that seems buggy.\nNO IT'S A WONDERFUL VISUAL EFFECT\nNO ONE THOUGH ABOUT BEFORE"] ,
+	  "at": 35 },
+    ],
+    "boss": {
+	"path": "sofa.png",
+	"path-hurt": "sofa-h.png",
+	"life": 50,
+	"action": "motivation-goal.boss",
+	"win": "amap.win",
+	"pos": [770, 158]
+    },
+    "monsters": {
+	"p": {
+	    "life": 5,
+	    "action": ["motivation-goal.pillow", 200],
+	    "img": "pillow"
+	}
+    },
+    "objs": [
+	["door", "amap.win"]
+    ]
+
+}
