@@ -48,9 +48,6 @@
 	(y_move_set_xspeed mver -20)
 	(y_move_obj o mver tt)
 
-	(display distance)
-	(display "hello pillow !!!!\n")
-	(yePrint tuple)
 	)
       )
     )
@@ -81,8 +78,8 @@
 		    (textures (yeGet wid "textures"))
 		    (monster_info (yeGet (yeGet wid "_mi") "monsters"))
 		    )
-                (yeCreateString "p" mon) ; MONSTER_STR_KEY 0
-                (ywPosCreate 770 (modulo (yuiRand) 400) mon) ; MONSTER_POS 1
+                (yeCreateString "p" mon "lol") ; MONSTER_STR_KEY 0
+                (ywPosCreate 770 (modulo (yuiRand) 400) mon "pos") ; MONSTER_POS 1
 		(y_mover_new mon "mover") ; MONSTER_MOVER 2
 		(yamap_generate_monster_canvasobj wid textures mon monster_info
 						  (- (yeLen monsters) 1))
